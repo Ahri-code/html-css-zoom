@@ -7,11 +7,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Debug */
+
+.block {
+    display: block;
+}
+
 /* Flex */
 
 .flex-right {
     display: flex;
     justify-content: flex-end;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* General */
@@ -28,6 +45,14 @@
     color: white;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 /* Header */
 
 .rotate {
@@ -39,4 +64,24 @@
     margin-right: 0.5rem;
     margin-top: 0.5rem;
     border-radius: 5px;
+}
+
+/* Main */
+
+.widith {
+    width: 90%;
+}
+
+.dimension {
+    width: calc(100% / 7);
+}
+
+.on-top {
+    z-index: 1;
+}
+
+.positioning {
+    bottom: 0px;
+    left: 0px;
+    padding: 0.5rem 0.75rem;
 }
